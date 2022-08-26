@@ -1,12 +1,12 @@
 # XMRig Proxy
-[![Github All Releases](https://img.shields.io/github/downloads/xmrig/xmrig-proxy/total.svg)](https://github.com/xmrig/xmrig-proxy/releases)
-[![GitHub release](https://img.shields.io/github/release/xmrig/xmrig-proxy/all.svg)](https://github.com/xmrig/xmrig-proxy/releases)
-[![GitHub Release Date](https://img.shields.io/github/release-date-pre/xmrig/xmrig-proxy.svg)](https://github.com/xmrig/xmrig-proxy/releases)
-[![GitHub license](https://img.shields.io/github/license/xmrig/xmrig-proxy.svg)](https://github.com/xmrig/xmrig-proxy/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/xmrig/xmrig-proxy.svg)](https://github.com/xmrig/xmrig-proxy/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/xmrig/xmrig-proxy.svg)](https://github.com/xmrig/xmrig-proxy/network)
+[![Github All Releases](https://img.shields.io/github/downloads/mrn-77/xmrig-proxy/total.svg)](https://github.com/xmrig/xmrig-proxy/releases)
+[![GitHub release](https://img.shields.io/github/release/mtn-77/xmrig-proxy/all.svg)](https://github.com/xmrig/xmrig-proxy/releases)
+[![GitHub Release Date](https://img.shields.io/github/release-date-pre/mrn-77/xmrig-proxy.svg)](https://github.com/xmrig/xmrig-proxy/releases)
+[![GitHub license](https://img.shields.io/github/license/mrn-77/xmrig-proxy.svg)](https://github.com/xmrig/xmrig-proxy/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/mrn-77/xmrig-proxy.svg)](https://github.com/xmrig/xmrig-proxy/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/mrn-77/xmrig-proxy.svg)](https://github.com/xmrig/xmrig-proxy/network)
 
-Extremely high performance Monero (XMR) Stratum protocol proxy, can easily handle over 100K connections on cheap $5 (1024 MB) virtual machine. Reduce number of pool connections up to 256 times, 100K workers become just 391 worker on pool side. Written on C++/libuv same as [XMRig](https://github.com/xmrig/xmrig) miner.
+Extremely high performance Monero (XMR) Stratum protocol proxy, can easily handle over 100K connections on cheap $5 (1024 MB) virtual machine or even on a RaspberryPi. Reduce number of pool connections up to 256 times, 100K workers become just 391 worker on pool side. Written on C++/libuv same as [XMRig](https://github.com/xmrig/xmrig) miner.
 
 ## Compatibility
 :warning: :warning: :warning: **Nicehash support must be enabled on miner side, it mandatory.** :warning: :warning: :warning:
@@ -96,13 +96,3 @@ Misc:
       --dry-run                 test configuration and exit
 ```
 
-## Donations
-
-Default donation fee is 2% can be reduced to 1% or disabled via `donate-level` option. Donation fee applies only if you use more than 256 miners.
-
-* XMR: `48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD`
-
-## Contacts
-* support@xmrig.com
-* [reddit](https://www.reddit.com/user/XMRig/)
-* [twitter](https://twitter.com/xmrig_dev)
